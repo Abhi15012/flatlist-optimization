@@ -152,22 +152,5 @@ After optimizations:
 - expo-image for images
 - Fetching data from dummyjson.com
 
-## What I Learned
 
-The main thing is that FlatList performance isn't just one fix - you need to do multiple things:
-1. Fixed heights if possible
-2. Limit initial renders
-3. Memoize components
-4. Good image caching
-5. Remove off-screen views
 
-Each one helps a bit, but together they make a huge difference.
-
-## Notes
-
-- Currently fetches 30 products from the DummyJSON API
-- All items have fixed 350px height (240px image + padding + text)
-- For way more items (1000+), you'd probably want pagination or infinite scroll
-- Dark mode works too
-
-Hope this helps someone else dealing with laggy FlatLists!
