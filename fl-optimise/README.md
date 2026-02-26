@@ -153,4 +153,3 @@ After optimizations:
 - Fetching data from dummyjson.com
 
 
-
